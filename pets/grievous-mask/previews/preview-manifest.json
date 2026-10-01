@@ -1,0 +1,16 @@
+{
+  "source": "/Users/akshay/Documents/Codex/2026-10-01/pets-plugin-work-pets-openai-curated/work/grievous-mask/final/spritesheet-extended.png",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "all_state_frames": 57,
+  "look_direction_frames": 16
+}

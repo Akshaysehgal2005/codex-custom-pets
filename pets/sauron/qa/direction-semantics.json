@@ -1,0 +1,116 @@
+{
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Underside of the faceplate is exposed; the visor aims straight toward the top edge."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "The visor tips up and toward screen-right from the upward pose."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "The head is clearly up-right, with the visor rising toward screen-right."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "warning",
+      "evidence": "The upward tilt softens as the helm turns toward screen-right."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "Clear screen-right profile; visor projects right and near circular joint is visible."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "warning",
+      "evidence": "The visor angles down-right beneath the crown."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Faceplate points down-right, toward the lower right quadrant."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Strong down-right tilt approaches the downward pose."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Crown points forward/down and the visor faces the chest, clearly down."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "evidence": "Head turns down-left from the downward pose."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "evidence": "Faceplate remains down while aiming clearly screen-left."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "warning",
+      "evidence": "Steeper down-left turn approaches the left profile."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "Clear screen-left profile; visor projects left, circular joint visible on right side."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "warning",
+      "evidence": "The visor starts to rise toward screen-left."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "warning",
+      "evidence": "Head is visibly up-left with visor higher than the downward poses."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Strong up-left tilt leads back toward the straight-up anchor."
+    }
+  ]
+}

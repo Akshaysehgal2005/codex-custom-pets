@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "/Users/akshay/Documents/Codex/2026-10-01/pets-plugin-work-pets-openai-curated/work/grievous-mask/decoded/look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        534,
+        736
+      ],
+      "used_pixels": 128175,
+      "edge_pixels": 14,
+      "output": "/Users/akshay/Documents/Codex/2026-10-01/pets-plugin-work-pets-openai-curated/work/grievous-mask/decoded/look-anchors/000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        534,
+        0,
+        1068,
+        736
+      ],
+      "used_pixels": 135277,
+      "edge_pixels": 12,
+      "output": "/Users/akshay/Documents/Codex/2026-10-01/pets-plugin-work-pets-openai-curated/work/grievous-mask/decoded/look-anchors/090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        1068,
+        0,
+        1601,
+        736
+      ],
+      "used_pixels": 124231,
+      "edge_pixels": 2,
+      "output": "/Users/akshay/Documents/Codex/2026-10-01/pets-plugin-work-pets-openai-curated/work/grievous-mask/decoded/look-anchors/180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1601,
+        0,
+        2135,
+        736
+      ],
+      "used_pixels": 129674,
+      "edge_pixels": 0,
+      "output": "/Users/akshay/Documents/Codex/2026-10-01/pets-plugin-work-pets-openai-curated/work/grievous-mask/decoded/look-anchors/270.png"
+    }
+  ]
+}

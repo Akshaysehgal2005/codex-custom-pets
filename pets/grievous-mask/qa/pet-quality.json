@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "atlas": "/Users/akshay/Documents/Codex/2026-10-01/pets-plugin-work-pets-openai-curated/work/grievous-mask/final/spritesheet-extended.png",
+  "encoded_bytes": 2438952,
+  "sha256": "2f06af161eda7f20dddae073b2fe60352e85e84db5766371e1a6bbf3f30bc533",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      200,
+      163,
+      163,
+      202
+    ],
+    "airborne_lift_pixels": 39,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      86.0,
+      81.5,
+      79.0,
+      77.0,
+      77.0,
+      83.0,
+      83.5,
+      87.0,
+      84.5,
+      86.0,
+      86.0,
+      86.0,
+      91.5,
+      93.0,
+      93.5,
+      96.0
+    ],
+    "look_widths": [
+      76,
+      87,
+      92,
+      94,
+      94,
+      82,
+      81,
+      76,
+      65,
+      68,
+      68,
+      70,
+      79,
+      86,
+      85,
+      88
+    ],
+    "maximum_center_drift_pixels": 19.0,
+    "maximum_width_ratio": 1.4461538461538461
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 045 accepted with a reviewed warning",
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 292.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (4222 pixels vs neighbor average 2178)",
+    "337.5->000 diff is a local outlier (5255 pixels vs neighbor average 1975)",
+    "337.5->000 center shift is high (13.5px)",
+    "337.5->000 sprite area ratio is high (1.19)"
+  ]
+}
