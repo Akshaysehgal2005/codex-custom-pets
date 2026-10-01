@@ -4,14 +4,14 @@ Transparent animated companions for ChatGPT Work, with source strips, v2 sprite 
 
 <table>
   <tr>
-    <th>Grievous Mask</th>
-    <th>Sauron</th>
-    <th>Sauron (Armored)</th>
+    <th>Mr Grievous</th>
+    <th>Dark Dog</th>
+    <th>Thauron</th>
   </tr>
   <tr>
-    <td align="center"><img src="images/grievous-mask.png" alt="Grievous Mask pet, transparent background" width="240"></td>
-    <td align="center"><img src="images/sauron.png" alt="Sauron helm pet, transparent background" width="240"></td>
-    <td align="center"><img src="images/sauron-armored.png" alt="Armored Sauron pet, transparent background" width="240"></td>
+    <td align="center"><img src="images/mr-grievous.png" alt="Mr Grievous pet, transparent background" width="240"></td>
+    <td align="center"><img src="images/dark-dog.png" alt="Dark Dog pet, transparent background" width="240"></td>
+    <td align="center"><img src="images/thauron.png" alt="Thauron pet, transparent background" width="240"></td>
   </tr>
 </table>
 
@@ -19,9 +19,9 @@ Transparent animated companions for ChatGPT Work, with source strips, v2 sprite 
 
 | Pet | Description | Pet ID |
 | --- | --- | --- |
-| Grievous Mask | Bone-white, horned cyborg mask with watchful red eyes | `pet_6abe49473a888191b006b1e2134f59e3` |
-| Sauron | Dark-iron spiked helm with an ember-red visor | `pet_6abe517a2fe08191b006b1e2134f59e3` |
-| Sauron (Armored) | Dark-armored lord with a towering spiked helm, cape, and greatsword | `pet_6abee113040c8191a4e018abec6cb1f7` |
+| Mr Grievous | Bone-white, horned cyborg mask with watchful red eyes | `pet_6abe49473a888191a4b73eb53bbcdd27` |
+| Dark Dog | Dark-iron spiked helm with an ember-red visor | `pet_6abe517a2fe08191b006b1e2134f59e3` |
+| Thauron | Dark-armored lord with a towering spiked helm, cape, and greatsword | `pet_6abee113040c8191a4e018abec6cb1f7` |
 
 ## Use a pet
 
@@ -30,6 +30,18 @@ Transparent animated companions for ChatGPT Work, with source strips, v2 sprite 
 - In ChatGPT on the web, open **Settings → Personalization → Pet → Select pet**, then choose the pet. It appears in supported ChatGPT Work chats.
 - In the ChatGPT desktop app, open your profile menu and choose **Pets**, or open **Settings → Pets**. Choose the pet, then enter `/pet` or use **Show pet** to display it.
 - The pet picker changes the appearance of ChatGPT; it does not change how ChatGPT completes tasks.
+
+### Ask Codex to add pets
+
+Because this repository is public, you can ask Codex to use its published pet assets. Open this repository in Codex and paste:
+
+> Add the [character name(s)] pet from this repository to my ChatGPT Pets. Follow `AGENTS.md`, use the matching pet assets and source notes, validate the sprite sheet, then upload and select the pet.
+
+To request a character that is not listed yet, use:
+
+> Create a pet for [character name] in this repository, following `AGENTS.md`. Add its preview and source notes to the README, then validate, upload, and select it in my ChatGPT Pets.
+
+Codex will need access to your ChatGPT Pets tools to upload and select a pet.
 
 ### Add one from this repository
 

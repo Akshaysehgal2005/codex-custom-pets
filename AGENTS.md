@@ -28,7 +28,7 @@ Keep each pet in its own folder. Use lowercase hyphenated slugs and update the r
 
 1. Read the backed-up [create-pet skill](skills/create-pet/SKILL.md), its linked references, and the target pet's existing request and QA files before changing artwork.
 2. Preserve existing pets unless the user explicitly asks to replace or update one. For a new pet, add a new slug folder.
-3. Generate new character art and animation strips with ImageGen. Do not draw replacement pet art procedurally. Keep reference identity cues, prop attachments, scale, and baseline consistent.
+3. Match the requested art direction. For game characters, first look for original sprites and prefer preserving the pixel-art source when the user asks for it; keep source attribution with the files. For new or missing animation art, use ImageGen with the source sprite sheet attached as the identity reference. Avoid glossy toy or Disney-like styling when the user asks for darker art.
 4. Use the bundled scripts under `skills/create-pet/scripts/` for extraction, composition, chroma cleanup, atlas validation, direction continuity, and quality validation. New pets use v2: transparent PNG/WebP, exactly 1536x2288 pixels, 8 columns by 11 rows, 192x208 cells, 73 populated frames.
 5. Inspect the standard animation contact sheet, labeled look-direction sheet, and all loop transitions. A wrong or ambiguous cardinal, clipped art, broken prop, accidental hole, or failed bundled gate blocks upload.
 6. Render previews from the final encoded sheet and show motion to the user before upload. Preserve the preview and every required QA report in that pet's folder.
@@ -38,6 +38,15 @@ Keep each pet in its own folder. Use lowercase hyphenated slugs and update the r
 ## README portraits
 
 Use one transparent PNG per pet in `images/`, placed side by side in the README. Derive each portrait from that pet's first idle frame, preserving the transparent alpha channel. Verify transparency and visual scale before updating the README.
+
+## Publishing each pet in the README
+
+When adding a pet, update the root `README.md` in the same change:
+
+1. Add one heading cell and one portrait cell to the side-by-side image table. Use `images/<slug>.png`, a descriptive `alt`, and a consistent display width.
+2. Add a row to the Pets table with the display name, short appearance description, and stable ChatGPT Pet ID returned by the create flow.
+3. Add source artwork and its attribution/link under `pets/<slug>/source/`; do not embed temporary upload URLs or claim third-party art is original.
+4. Check that every README image path exists, the pet IDs and names match `list_pets`, and all table rows line up. Preview the rendered README, then commit and push the README and pet files together to `origin/main`.
 
 ## Changes and verification
 

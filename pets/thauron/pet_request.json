@@ -1,8 +1,8 @@
 {
-  "pet_id": "grievous-mask",
-  "display_name": "Grievous Mask",
-  "description": "A bone-white, horned cyborg mask with watchful red eyes, animated as a curious little companion.",
-  "created_at": "2026-10-01T10:43:19.780386+00:00",
+  "pet_id": "thauron",
+  "display_name": "Thauron",
+  "description": "A tiny dark-armored lord with a towering spiked helm, a shadowing cape, and a greatsword at his shoulder.",
+  "created_at": "2026-10-01T22:21:07.409627+00:00",
   "sprite_version_number": 2,
   "atlas": {
     "columns": 8,
@@ -257,7 +257,7 @@
     "name": "magenta",
     "selection": "fallback"
   },
-  "pet_notes": "Inspired by General Grievous's mask silhouette: angular ivory armor, four swept-back horn-like ridges, narrow glowing red eyes, dark mechanical seams. Keep it compact, friendly, and distinct; no weapon, no text, no logo. Entire mask character on tiny articulated feet, 3D toy style, readable at 192x208.",
+  "pet_notes": "Second Sauron pet based on the user-supplied full-figure statue reference. Keep a compact 3D toy silhouette: dark iron and pewter layered plate, very tall narrow crown helm, face hidden behind vertical grill, broad shoulders, long black cape, greatsword held horizontally above one shoulder. Preserve sword and cape attachment across animations; keep limbs short and grounded, no pedestal.",
   "style_preset": "3d-toy",
   "style_notes": "",
   "style_contract": "Pet-safe sprite: compact full-body mascot, readable in a 192x208 cell, clear silhouette, simple face, stable palette/materials, and crisp edges for chroma-key extraction. Style `3d-toy`: Stylized 3D toy mascot with smooth rounded forms, simple materials, clear silhouette, and no photoreal complexity.",
