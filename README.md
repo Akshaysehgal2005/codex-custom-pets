@@ -19,3 +19,4 @@ Each pet folder contains its final v2 sprite sheet, source images/strips, contac
 - `pets/<pet>/qa/` — validation, motion, direction, and continuity reports
 
 This repository is intended to be private because the pets are character-inspired artwork.
+| Sauron (Armored) | Dark-armored lord with a towering spiked helm, cape, and greatsword | `pet_6abee113040c8191a4e018abec6cb1f7` |
