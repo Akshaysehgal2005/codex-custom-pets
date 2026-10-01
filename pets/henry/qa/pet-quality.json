@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "atlas": "pets/henry/spritesheet-extended.png",
+  "encoded_bytes": 465989,
+  "sha256": "cf1de5813084a12934145c5f7de17ba28480acb435ae6241caa0e2b3435c9429",
+  "jump": {
+    "idle_baseline": 168,
+    "jump_baselines": [
+      168,
+      168,
+      160,
+      168,
+      168
+    ],
+    "airborne_lift_pixels": 8,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 97.5,
+    "look_centers_x": [
+      95.5,
+      96.5,
+      96.0,
+      96.0,
+      95.0,
+      96.5,
+      98.5,
+      99.5,
+      95.0,
+      96.0,
+      96.0,
+      96.0,
+      95.5,
+      95.5,
+      96.0,
+      96.0
+    ],
+    "look_widths": [
+      73,
+      73,
+      72,
+      72,
+      74,
+      73,
+      73,
+      73,
+      72,
+      72,
+      72,
+      72,
+      71,
+      71,
+      70,
+      70
+    ],
+    "maximum_center_drift_pixels": 2.5,
+    "maximum_width_ratio": 1.0571428571428572
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 292.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (1687 pixels vs neighbor average 1084)",
+    "337.5->000 diff is a local outlier (1235 pixels vs neighbor average 831)"
+  ]
+}

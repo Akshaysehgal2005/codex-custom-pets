@@ -7,11 +7,15 @@ Transparent animated companions for ChatGPT Work, with source strips, v2 sprite 
     <th>Mr Grievous</th>
     <th>Dark Dog</th>
     <th>Thauron</th>
+    <th>Louis</th>
+    <th>Henry</th>
   </tr>
   <tr>
-    <td align="center"><img src="images/mr-grievous.png" alt="Mr Grievous pet, transparent background" width="240"></td>
-    <td align="center"><img src="images/dark-dog.png" alt="Dark Dog pet, transparent background" width="240"></td>
-    <td align="center"><img src="images/thauron.png" alt="Thauron pet, transparent background" width="240"></td>
+    <td align="center"><img src="images/mr-grievous.png" alt="Mr Grievous pet, transparent background" width="160"></td>
+    <td align="center"><img src="images/dark-dog.png" alt="Dark Dog pet, transparent background" width="160"></td>
+    <td align="center"><img src="images/thauron.png" alt="Thauron pet, transparent background" width="160"></td>
+    <td align="center"><img src="images/louis.png" alt="Louis pet, transparent background" width="160"></td>
+    <td align="center"><img src="images/henry.png" alt="Henry pet, transparent background" width="160"></td>
   </tr>
 </table>
 
@@ -22,6 +26,8 @@ Transparent animated companions for ChatGPT Work, with source strips, v2 sprite 
 | Mr Grievous | Bone-white, horned cyborg mask with watchful red eyes | `pet_6abe49473a888191a4b73eb53bbcdd27` |
 | Dark Dog | Dark-iron spiked helm with an ember-red visor | `pet_6abe517a2fe08191b006b1e2134f59e3` |
 | Thauron | Dark-armored lord with a towering spiked helm, cape, and greatsword | `pet_6abee113040c8191a4e018abec6cb1f7` |
+| Louis | Blue-armored Little Fighter 2 warrior with a red cape | `pet_6abeeff682c08191a2898b5693015fa5` |
+| Henry | Orange-clad Little Fighter 2 archer carrying a bow | `pet_6abef00688c08191b2c6ba97a0b05121` |
 
 ## Use a pet
 
@@ -35,7 +41,7 @@ Transparent animated companions for ChatGPT Work, with source strips, v2 sprite 
 
 Because this repository is public, you can ask Codex to use its published pet assets. Open this repository in Codex and paste:
 
-> Add the [character name(s)] pet from this repository to my ChatGPT Pets. Follow `AGENTS.md`, use the matching pet assets and source notes, validate the sprite sheet, then upload and select the pet.
+> Add the [character name(s)] pet from this repository to my ChatGPT Pets. For Louis and Henry, preserve their Little Fighter 2 pixel-art look. Follow `AGENTS.md`, use the matching pet assets and source notes, validate the sprite sheet, then upload and select the pet.
 
 To request a character that is not listed yet, use:
 

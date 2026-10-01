@@ -1,0 +1,1 @@
+Use the original LF2 pixel sprite as the identity source. Keep the body, orange tunic, boots, bow, and quiver fixed. Express gaze with only tiny pixel-level head and eye changes; do not rotate the whole body or detach the bow. The cardinal poses are up, screen-right, down, and screen-left in viewer coordinates. Keep the original restrained game palette and crisp pixel edges.

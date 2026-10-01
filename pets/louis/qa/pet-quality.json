@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "atlas": "pets/louis/spritesheet-extended.png",
+  "encoded_bytes": 569326,
+  "sha256": "8cd593fc182ee70d6ac5da4531ff427ff8d2c36b5abe17431ed68a9e3af49a76",
+  "jump": {
+    "idle_baseline": 168,
+    "jump_baselines": [
+      168,
+      168,
+      157,
+      168,
+      168
+    ],
+    "airborne_lift_pixels": 11,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 97.0,
+    "look_centers_x": [
+      94.5,
+      94.5,
+      95.5,
+      94.5,
+      94.5,
+      95.0,
+      96.0,
+      97.0,
+      94.5,
+      94.5,
+      93.5,
+      93.5,
+      92.5,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "look_widths": [
+      77,
+      77,
+      73,
+      73,
+      71,
+      74,
+      76,
+      78,
+      77,
+      75,
+      73,
+      73,
+      75,
+      76,
+      76,
+      76
+    ],
+    "maximum_center_drift_pixels": 5.0,
+    "maximum_width_ratio": 1.0985915492957747
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 247.5 accepted with a reviewed warning",
+    "look direction 292.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (1521 pixels vs neighbor average 980)",
+    "247.5->270 diff is a local outlier (1281 pixels vs neighbor average 782)",
+    "337.5->000 diff is a local outlier (2124 pixels vs neighbor average 750)"
+  ]
+}
